@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25193e5f-d02a-4b88-8d55-4869e5bf0f0d" name="Default" comment="" />
+    <list default="true" id="25193e5f-d02a-4b88-8d55-4869e5bf0f0d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/239SlidingWindowMaximum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/703KthLargestElementinsStream.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/001TwoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/001TwoSum.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +22,7 @@
     <SUITE FILE_PATH="coverage/Algorithm$Hero.coverage" NAME="Hero Coverage Results" MODIFIED="1534147760928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/Algorithm$test.coverage" NAME="test Coverage Results" MODIFIED="1534330719957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/Algorithm$SelectSort.coverage" NAME="SelectSort Coverage Results" MODIFIED="1534161602881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
+    <SUITE FILE_PATH="coverage/Algorithm$239SlidingWindowMaximum.coverage" NAME="239SlidingWindowMaximum Coverage Results" MODIFIED="1558683859111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/Algorithm$fib.coverage" NAME="fib Coverage Results" MODIFIED="1540521370517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recursion&amp;Iter" />
     <SUITE FILE_PATH="coverage/Algorithm$Longest_SubstringWithoutRepeatingCharacters.coverage" NAME="Longest SubstringWithoutRepeatingCharacters Coverage Results" MODIFIED="1534330737800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/Algorithm$IncreasingSequence.coverage" NAME="IncreasingSequence Coverage Results" MODIFIED="1537617549349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
@@ -40,32 +47,81 @@
           <entry key="001TwoSum" value="1" />
           <entry key="SelectSort" value="3" />
           <entry key="TwoSum" value="2" />
-          <entry key="py" value="33" />
+          <entry key="py" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="38" />
+          <entry key="Python" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="261" />
+          <entry key="py" value="345" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="261" />
+          <entry key="Python" value="345" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/001TwoSum.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1734">
+              <caret line="102" column="18" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/703KthLargestElementinsStream.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/239SlidingWindowMaximum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/AddTwoNumbers.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-221">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/findMedianSortedArrays.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LeetCode/Longest SubstringWithoutRepeatingCharacters.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="63" lean-forward="true" selection-start-line="60" selection-end-line="63" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -76,6 +132,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -93,6 +152,9 @@
         <option value="$PROJECT_DIR$/Sort/IncreasingSequence.py" />
         <option value="$PROJECT_DIR$/Recursion&amp;Iter/fib.py" />
         <option value="$PROJECT_DIR$/LeetCode/TwoSum" />
+        <option value="$PROJECT_DIR$/LeetCode/001TwoSum.py" />
+        <option value="$PROJECT_DIR$/LeetCode/703KthLargestElementinsStream.py" />
+        <option value="$PROJECT_DIR$/LeetCode/239SlidingWindowMaximum.py" />
       </list>
     </option>
   </component>
@@ -102,11 +164,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="360" />
+    <option name="y" value="35" />
     <option name="width" value="1206" />
     <option name="height" value="712" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -148,7 +213,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fib">
+  <component name="RunManager" selected="Python.239SlidingWindowMaximum">
+    <configuration name="239SlidingWindowMaximum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/239SlidingWindowMaximum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="IncreasingSequence" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,28 +272,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/Longest SubstringWithoutRepeatingCharacters.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TwoSum" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/TwoSum" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,19 +325,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.TwoSum" />
       <item itemvalue="Python.Longest SubstringWithoutRepeatingCharacters" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.fib" />
       <item itemvalue="Python.IncreasingSequence" />
+      <item itemvalue="Python.239SlidingWindowMaximum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.239SlidingWindowMaximum" />
         <item itemvalue="Python.fib" />
         <item itemvalue="Python.IncreasingSequence" />
         <item itemvalue="Python.Longest SubstringWithoutRepeatingCharacters" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.TwoSum" />
       </list>
     </recent_temporary>
   </component>
@@ -290,15 +355,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="23" width="1206" height="712" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2749141" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21567044" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.20977917" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20958903" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -406,13 +471,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/Longest SubstringWithoutRepeatingCharacters.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/TwoSum" />
     <entry file="file://$PROJECT_DIR$/LeetCode/test.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -422,22 +480,47 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/001TwoSum" />
+    <entry file="file://$PROJECT_DIR$/LeetCode/001TwoSum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1734">
+          <caret line="102" column="18" selection-start-line="102" selection-start-column="12" selection-end-line="102" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/AddTwoNumbers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="-221">
           <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/findMedianSortedArrays.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="41" column="13" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="13" />
+        <state relative-caret-position="319">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/001TwoSum.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/LeetCode/Longest SubstringWithoutRepeatingCharacters.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="63" lean-forward="true" selection-start-line="60" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/239SlidingWindowMaximum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/703KthLargestElementinsStream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

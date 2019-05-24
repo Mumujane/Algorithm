@@ -35,8 +35,7 @@ print(twoSum([2, 7, 11, 15], 18))
 # 方法二
 
 """分析:
-
-我们可以通过判断target与某一个元素的差值是否也在列表之中即可
+通过判断target与某一个元素的差值是否也在列表之中即可
 """
 
 def towSumUp(nums, target):
@@ -55,7 +54,6 @@ def towSumUp(nums, target):
 print(towSumUp([2, 7, 11, 15], 17))
 
 # 方法 三
-
 """
     分析:
     通过创建字典，将nums里的值和序号对应起来，
