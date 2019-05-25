@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25193e5f-d02a-4b88-8d55-4869e5bf0f0d" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/239SlidingWindowMaximum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/703KthLargestElementinsStream.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/242ValidAnagram.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/001TwoSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/001TwoSum.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +21,7 @@
     <SUITE FILE_PATH="coverage/Algorithm$SelectSort.coverage" NAME="SelectSort Coverage Results" MODIFIED="1534161602881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
     <SUITE FILE_PATH="coverage/Algorithm$239SlidingWindowMaximum.coverage" NAME="239SlidingWindowMaximum Coverage Results" MODIFIED="1558683859111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/Algorithm$fib.coverage" NAME="fib Coverage Results" MODIFIED="1540521370517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Recursion&amp;Iter" />
+    <SUITE FILE_PATH="coverage/Algorithm$242ValidAnagram.coverage" NAME="242ValidAnagram Coverage Results" MODIFIED="1558798394585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/Algorithm$Longest_SubstringWithoutRepeatingCharacters.coverage" NAME="Longest SubstringWithoutRepeatingCharacters Coverage Results" MODIFIED="1534330737800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LeetCode" />
     <SUITE FILE_PATH="coverage/Algorithm$IncreasingSequence.coverage" NAME="IncreasingSequence Coverage Results" MODIFIED="1537617549349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Sort" />
   </component>
@@ -47,23 +45,23 @@
           <entry key="001TwoSum" value="1" />
           <entry key="SelectSort" value="3" />
           <entry key="TwoSum" value="2" />
-          <entry key="py" value="38" />
+          <entry key="py" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="43" />
+          <entry key="Python" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="345" />
+          <entry key="py" value="1088" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="345" />
+          <entry key="Python" value="1088" />
         </counts>
       </usages-collector>
     </session>
@@ -79,7 +77,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/703KthLargestElementinsStream.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="317">
@@ -91,8 +89,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LeetCode/239SlidingWindowMaximum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+            <state relative-caret-position="376">
+              <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LeetCode/242ValidAnagram.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="63" column="27" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -155,6 +162,7 @@
         <option value="$PROJECT_DIR$/LeetCode/001TwoSum.py" />
         <option value="$PROJECT_DIR$/LeetCode/703KthLargestElementinsStream.py" />
         <option value="$PROJECT_DIR$/LeetCode/239SlidingWindowMaximum.py" />
+        <option value="$PROJECT_DIR$/LeetCode/242ValidAnagram.py" />
       </list>
     </option>
   </component>
@@ -213,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.239SlidingWindowMaximum">
+  <component name="RunManager" selected="Python.242ValidAnagram">
     <configuration name="239SlidingWindowMaximum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -228,6 +236,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/239SlidingWindowMaximum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="242ValidAnagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/242ValidAnagram.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -302,42 +332,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algorithm" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LeetCode" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LeetCode/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.Longest SubstringWithoutRepeatingCharacters" />
-      <item itemvalue="Python.test" />
       <item itemvalue="Python.fib" />
       <item itemvalue="Python.IncreasingSequence" />
       <item itemvalue="Python.239SlidingWindowMaximum" />
+      <item itemvalue="Python.242ValidAnagram" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.242ValidAnagram" />
         <item itemvalue="Python.239SlidingWindowMaximum" />
         <item itemvalue="Python.fib" />
         <item itemvalue="Python.IncreasingSequence" />
         <item itemvalue="Python.Longest SubstringWithoutRepeatingCharacters" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -508,17 +516,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LeetCode/239SlidingWindowMaximum.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LeetCode/703KthLargestElementinsStream.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="34" column="11" lean-forward="true" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/239SlidingWindowMaximum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LeetCode/242ValidAnagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="63" column="27" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="27" />
         </state>
       </provider>
     </entry>
