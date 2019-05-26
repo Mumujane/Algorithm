@@ -19,7 +19,7 @@ return [0, 1].
 
 """
 
-# 方法 一
+# 方法 一 暴力破解
 def twoSum(lists, target):
     res = []
     for i in range(len(lists)):
@@ -30,7 +30,8 @@ def twoSum(lists, target):
                 return res
 
 
-print(twoSum([2, 7, 11, 15], 18))
+print(twoSum([2, 7, 11, 15, 16], 18))
+print("****"*10)
 
 # 方法二
 
@@ -52,8 +53,9 @@ def towSumUp(nums, target):
 
 
 print(towSumUp([2, 7, 11, 15], 17))
+print("****"*10)
 
-# 方法 三
+# 方法三
 """
     分析:
     通过创建字典，将nums里的值和序号对应起来，
@@ -84,10 +86,10 @@ def twoSumUpPlus(nums, target):
             break
     return result
 
+print(twoSumUpPlus([2, 7, 11, 15, 1, 16], 17))
+print("****"*10)
 
-print(twoSumUpPlus([2, 7, 11, 15], 17))
-
-#  参考
+# 参考 使用Set
 def twoSum2(nums, target):
     """
     :type nums: List[int]
@@ -103,8 +105,8 @@ def twoSum2(nums, target):
             return [i, dd[cha]]
     return 'null'
 
+print("---"*10)
+print(twoSum2([2, 7, 11, 15, 25, 1, 22, 4], 26))
 
-print(twoSum2([2, 7, 11, 15], 26))
 
-
-
+#? 只输出一个解?
