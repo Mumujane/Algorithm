@@ -18,7 +18,6 @@ A solution set is:
 
 """
 
-
 class Solution(object):
     def threeSum(self, nums):
         """
